@@ -14,7 +14,12 @@ LinkedList<T>::LinkedList():head(nullptr), tail(nullptr), cnt(0)
 
 template <class T>
 LinkedList<T>::~LinkedList(){
-	
+	Node<T> *t = head;
+        while(t != nullptr){
+                head = head->GetNext();
+                delete t;
+                t = head;
+        }
 }
 
 template <class T>
