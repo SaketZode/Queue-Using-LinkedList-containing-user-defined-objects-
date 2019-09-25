@@ -9,6 +9,8 @@ Functionalities of the program are:
     4. Search retail store on specified address.
     
 Execution Steps : 
+    (NOTE: All files must be in same folder)
+    
     Compile: 
           g++ main.cpp
     Run:
